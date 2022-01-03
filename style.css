@@ -1,3 +1,26 @@
-span{
+body{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 5%;
+}
+h1{
+    font-size: 50px;
+}
+.habloo{
     color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 100%;
+}
+.hire-me{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px;
+    border-radius: 5px;
 }
