@@ -1,15 +1,19 @@
 body{
     font-family: 'Poppins', sans-serif;
-    padding-left: 5%;
+    margin: 0;
 }
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .habloo{
     color: orange;
 }
-section{
+.flexbox{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -17,10 +21,57 @@ section{
 .half-width img{
     width: 100%;
 }
-.hire-me{
+.link-button{
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(orange, tomato);
-    padding: 10px;
+    background-image: linear-gradient(rgb(221, 145, 5), tomato);
+    padding: 5px 15px;
     border-radius: 5px;
+}
+#img-padding{
+    padding-left: 50px;
+}
+#img-padding-right{
+    padding-right: 50px;
+}
+#text-padding{
+    padding: 50px;
+}
+#text-padding-2{
+    padding-left: 50px;
+}
+#background{
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+#bg{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.ex-background{
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+}
+.good{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px;
+    padding: 15px;
+}
+#slice{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 102, 0), rgb(218, 58, 138));
+    border-image-slice: 1;
+}
+#slice-two{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    margin-bottom: 50px;
 }
